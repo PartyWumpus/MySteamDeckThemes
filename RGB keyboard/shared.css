@@ -44,7 +44,7 @@
 
     /* Key Background Colours */
     --key-background-color: var(--key-bg-color);
-    --key-focused-background-color: var(--key-bg-color);
+    --key-focused-background-color: var(--alt-color-two);
     --key-meta-background-color: var(--key-bg-color);
     --key-tab-background-color: var(--key-bg-color);
     --key-caps-background-color: var(--key-bg-color);
@@ -86,10 +86,13 @@
     --key-focused-action-button-left-color: var(--key-text-color);
     --key-focused-action-button-right-color: var(--key-text-color);
     --key-enter-action-button-glyph-color: var(--key-text-color);
+
     --key-emoji-category-highlight-background-color: var(--alt-color-two);
     --key-emoji-color: var(--key-text-color);
     --key-emoji-focused-color: var(--key-text-color);
     --key-emoji-focused-background-color: var(--key-text-color);
+    --key-spacer-background-color: #00000000
+
     --key-pointer-stroke-color: var(--key-text-color);
     --key-pointer-background-color: var(--key-text-color);
     --key-deadkey-background-color: var(--key-text-color);
@@ -135,4 +138,9 @@ border-bottom:none;
 /* Glow of clicked keys */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq::after {
     box-shadow: 0px 0px 10px 5px var(--key-text-color), inset 0px 0px 10px 5px var(--key-text-color)
+}
+
+/* Colour of selected key */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--alt-color-two);
 }
