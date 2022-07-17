@@ -4,6 +4,7 @@
 
 ### RGB keyboard theme
 An RGB keyboard, with lots of customizability.
+Both the 'rainbow' and 'deck colours' patterns were made by suchmememanyskill, who also made the CSS loader
 
 https://user-images.githubusercontent.com/48649272/179416332-b47eed4c-5b42-4b7d-bb40-b1b69de6288c.mp4
 
