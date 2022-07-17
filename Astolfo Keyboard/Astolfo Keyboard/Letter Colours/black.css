@@ -1,0 +1,33 @@
+/* Key Letter Colours */
+.DefaultTheme {
+    --key-color: #000000;
+    --key-focused-color: #000000 ;
+    --key-meta-color: #000000;
+    --key-tab-color: #000000;
+    --key-caps-color: #000000;
+    --key-shift-color: #000000;
+    --key-enter-color: #000000;
+    --key-backspace-color: #000000;
+    --key-spacebar-color: #000000;
+    --key-extendedkey-color: #000000;
+    --key-extendedkey-focused-color: #000000;
+    --key-extendedkey-hover-color: #000000;
+    --key-toggleon-color: #000000;
+    --key-toggleoneshot-color: #000000;
+    --key-touched-color: #000000;
+}
+
+/* Keyboard Symbols (like X for backspace) */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img {
+    filter : brightness(0)
+}
+
+/* Keyboard Symbols when hovered */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
+    filter : brightness(0)
+}
+
+/* Emoji Keyboard L1 and L2 symbols */
+.DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
+    filter : brightness(0);
+}
