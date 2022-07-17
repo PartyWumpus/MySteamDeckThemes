@@ -27,7 +27,7 @@
 
 
 /* Key Letter Colours */
-.Cerulean {
+.DefaultTheme {
     --background-color: var(--main-color);
     animation : var(--keyboard-animation);
 
@@ -100,27 +100,27 @@
 }
 
 /* Keyboard Symbols (like X for backspace) */
-.Cerulean .virtualkeyboard_KeyboardKey_2KhPX img {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img {
     filter : brightness(var(--brightness))
 }
 
 /* Keyboard Symbols when on */
-.Cerulean .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
     filter : brightness(var(--brightness))
 }
 
 /* Keyboard Symbols when hovered */
-.Cerulean .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN img {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN img {
     filter : brightness(var(--brightness))
 }
 
 /* Emoji Keyboard L1 and L2 symbols */
-.Cerulean .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
+.DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
     filter : brightness(var(--brightness));
 }
 
 /* Outline of keys */
-.Cerulean .virtualkeyboard_KeyboardKey_2KhPX {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
 box-shadow: none;
 border-radius: 6px;
 border-top: none;
@@ -128,11 +128,11 @@ border-bottom:none;
 }
 
 /* Glow of hovered keys */
-.Cerulean .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN::before {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN::before {
     box-shadow: 0px 0px 5px 1px var(--key-text-color), inset 0px 0px 8px 1px var(--key-text-color)
 }
 
 /* Glow of clicked keys */
-.Cerulean .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq::after {
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq::after {
     box-shadow: 0px 0px 10px 5px var(--key-text-color), inset 0px 0px 10px 5px var(--key-text-color)
 }
