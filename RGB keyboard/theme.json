@@ -24,10 +24,10 @@
 
         "Speed": {
             "default": "Medium",
-            "Fast": {"Key Colours/fast.css": ["SP"]},
-            "Medium": {"Key Colours/med.css": ["SP"]},
-            "Slow": {"Key Colours/slow.css": ["SP"]},
-            "Very Slow": {"Key Colours/very slow.css": ["SP"]}
+            "Fast": {"Speeds/fast.css": ["SP"]},
+            "Medium": {"Speeds/med.css": ["SP"]},
+            "Slow": {"Speeds/slow.css": ["SP"]},
+            "Very Slow": {"Speeds/very slow.css": ["SP"]}
         }
     }
 }
