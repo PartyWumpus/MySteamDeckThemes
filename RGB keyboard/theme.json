@@ -1,6 +1,7 @@
 {
     "name": "RGB Keyboard",
     "version": "5",
+    "author": "Party Wumpus",
     "inject": {
         "shared.css": [
             "SP"
