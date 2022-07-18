@@ -1,6 +1,6 @@
 {
     "name": "Astolfo Keyboard",
-    "version": "4",
+    "version": "v4.0",
     "author": "Party Wumpus",
     "inject": {
         "shared.css": [
