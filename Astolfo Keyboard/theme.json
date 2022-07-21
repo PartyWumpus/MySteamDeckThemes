@@ -2,6 +2,7 @@
     "name": "Astolfo Keyboard",
     "version": "v4.0",
     "author": "Party Wumpus",
+    "target": "Keyboard",
     "inject": {
         "shared.css": [
             "SP"
