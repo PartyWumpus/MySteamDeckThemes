@@ -6,7 +6,7 @@
 1. [Decky/Plugin loader](https://github.com/SteamDeckHomebrew/decky-loader)
 2. [The css loader](https://github.com/suchmememanyskill/SDH-CssLoader/tree/dev) 
 3. Some means of file transfer from PC to steam deck.
-3a. I would recommend sshd, which can be turned on by
+4. 3a. I would recommend sshd, which can be turned on by
     1. Adding a password with 'passwd' in Konsole
     2. 'sudo systemctl enable sshd' in Konsole
     3. 'sudo systemctl start sshd' in Konsole
