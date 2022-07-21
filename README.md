@@ -25,6 +25,7 @@
 8. You should now have a live feed of your steam deck's homepage + the keyboard if it's open
 9. On the right of your screen, there's an inspect element menu, changes can be tested here and **will revert on reboot**
 10. Find things you want to change, and add them to your .css file
+
 10a. This is where having sshd comes in handy, you can edit the css file on your desktop, and have it automatically save to the steam deck.
 
 11. Keep at this till your keyboard looks how you want it, and then post it on r/steamdeck for epic reddit karma :p
