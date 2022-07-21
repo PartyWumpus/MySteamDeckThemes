@@ -17,8 +17,8 @@
 2. Add a new css file in one of the RGB keyboard's folders (whichever you feel like really)
 3. Modify the .json file so your new css file is added as an option
 4. Make some changes to some variables in your new css file, and reboot into game mode to see if it works.
-4a. I would reccomend changing the variables set in :root as they're the most important.
 
+4a. I would reccomend changing the variables set in :root as they're the most important.
 5. Now that your custom css is working, it's time for the work to begin. (not a step, shh)
 6. Go to chrome://inspect and add your steam deck's IP address with port 8081
 7. You should be able to see SP as an option, click on that.
@@ -27,7 +27,6 @@
 10. Find things you want to change, and add them to your .css file
 
 10a. This is where having sshd comes in handy, you can edit the css file on your desktop, and have it automatically save to the steam deck.
-
 11. Keep at this till your keyboard looks how you want it, and then post it on r/steamdeck for epic reddit karma :p
 
 ### Notes:
