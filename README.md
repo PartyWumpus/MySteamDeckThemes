@@ -6,11 +6,11 @@
 1. [Decky/Plugin loader](https://github.com/SteamDeckHomebrew/decky-loader)
 2. [The css loader](https://github.com/suchmememanyskill/SDH-CssLoader/tree/dev) 
 3. Some means of file transfer from PC to steam deck.
-4. 3a. I would recommend sshd, which can be turned on by
-    1. Adding a password with 'passwd' in Konsole
-    2. 'sudo systemctl enable sshd' in Konsole
-    3. 'sudo systemctl start sshd' in Konsole
-    4. You're now running an ssh server from the steam deck, find some way of connecting to that from your PC
+    1. I would recommend sshd, which can be turned on by
+    2. Adding a password with 'passwd' in Konsole
+    3. 'sudo systemctl enable sshd' in Konsole
+    4. 'sudo systemctl start sshd' in Konsole
+    5. You're now running an ssh server from the steam deck, find some way of connecting to that from your PC
 
 ### Steps:
 1. Install the RGB keyboard theme into the css loader's theme folder home/homebrew/themes (the rgb one has actual comments)
