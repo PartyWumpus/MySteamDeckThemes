@@ -1,9 +1,0 @@
-keyboard is 854x251
-
-lighest
-#ffe5ec
-#ffc2d1
-#ffb3c6
-#ff8fab
-#fb6f92
-darkest
