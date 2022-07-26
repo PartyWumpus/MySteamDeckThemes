@@ -1,0 +1,23 @@
+{
+    "name": "Ahegao Keyboard",
+    "version": "v1.0",
+    "author": "Party Wumpus",
+    "target": "Keyboard",
+    "inject": {
+        "shared.css": [
+            "SP"
+        ] 
+    },
+    "patches": {
+        "Key Colour": {
+            "default": "Black",
+            "Black": {"Key Colours/black.css": ["SP"]},
+            "White": {"Key Colours/white.css": ["SP"]}
+        },
+        "Background Colour": {
+            "default": "White",
+            "Black": {"Background Color/black.css": ["SP"]},
+            "White": {"Background Color/white.css": ["SP"]}
+        }
+    }
+}

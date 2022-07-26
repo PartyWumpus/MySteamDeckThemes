@@ -1,0 +1,157 @@
+:root {
+	--keyboard-colour: #FFFFFF;
+    --key-text-color: #FFFFFF;
+    --key-bg-color: #00000070; /* unneeded */
+    --alt-color: #C0C0C0;
+    --alt-color-two: #C0C0C0;
+    --brightness: 1;
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+    background-repeat: no-repeat;
+    background-image:url(https://miro.medium.com/max/1400/1*9QISaZZ3cIJrVBMiS-2tQw.jpeg);
+}
+
+div[data-key-col="0"] {background-position-x:0%;}
+div[data-key-col="1"] {background-position-x:6%;}
+div[data-key-col="2"] {background-position-x:12%;}
+div[data-key-col="3"] {background-position-x:18%;}
+div[data-key-col="4"] {background-position-x:24%;}
+div[data-key-col="5"] {background-position-x:30%;}
+div[data-key-col="6"] {background-position-x:36%;}
+div[data-key-col="7"] {background-position-x:42%;}
+div[data-key-col="8"] {background-position-x:48%;}
+div[data-key-col="9"] {background-position-x:54%;}
+div[data-key-col="10"] {background-position-x:60%;}
+div[data-key-col="11"] {background-position-x:66%;}
+div[data-key-col="12"] {background-position-x:72%;}
+div[data-key-col="13"] {background-position-x:84%;}
+div[data-key-col="14"] {background-position-x:90%;}
+
+div[data-key-row="0"] {background-position-y:0%;}
+div[data-key-row="1"] {background-position-y:25%;}
+div[data-key-row="2"] {background-position-y:50%;}
+div[data-key-row="3"] {background-position-y:75%;}
+div[data-key-row="4"] {background-position-y:100%;}
+
+.virtualkeyboard_KeyboardRow_d-_DJ {
+    gap:5px;
+}
+
+/* Key Letter Colours */
+.DefaultTheme {
+    --background-color: var(--keyboard-colour);
+
+    /* Key Text Colours */
+    --key-color: var(--key-text-color);
+    --key-focused-color: var(--key-text-color);
+    --key-meta-color: var(--key-text-color);
+    --key-tab-color: var(--key-text-color);
+    --key-caps-color: var(--key-text-color);
+    --key-shift-color: var(--key-text-color);
+    --key-enter-color: var(--key-text-color);
+    --key-backspace-color: var(--key-text-color);
+    --key-spacebar-color: var(--key-text-color);
+
+    /* Key Background Colours */
+    --key-background-color: var(--key-bg-color);
+    --key-focused-background-color: var(--alt-color-two);
+    --key-meta-background-color: var(--key-bg-color);
+    --key-tab-background-color: var(--key-bg-color);
+    --key-caps-background-color: var(--key-bg-color);
+    --key-shift-background-color: var(--key-bg-color);
+    --key-enter-background-color: var(--key-bg-color);
+    --key-backspace-background-color: var(--key-bg-color);
+    --key-spacebar-background-color: var(--key-bg-color);
+
+    /* Extended Key Colours */
+    --key-extendedkey-color: var(--key-text-color);
+    --key-extendedkey-focused-color: var(--key-text-color);
+    --key-extendedkey-hover-color: var(--key-text-color);
+    --key-extendedkey-background-color: var(--key-bg-color);
+    --key-extendedkey-focused-background-color: var(--alt-color-two);
+    --key-extendedkey-hover-background-color: var(--key-bg-color);
+
+    /* Shift Key Colours (as in the things above the numbers)*/
+    --key-shift-label-color: var(--alt-color);
+    --key-focused-shift-label-color: var(--alt-color);
+
+    /* Pressed Key Colours */
+    --key-touched-color: var(--key-text-color);
+    --key-touched-background-color: var(--alt-color-two);
+
+    /* Toggled On Key Colours (caps/shift) */
+    --key-toggleon-color: var(--key-bg-color);
+    --key-toggleon-background-color: var(--alt-color-two);
+
+    /* Temporary Toggled On Key Colours (shift) */
+    --key-toggleoneshot-color: var(--key-text-color);
+    --key-toggleoneshot-background-color:var(--alt-color-two);
+
+    /* other stuff that i honestly do not remember :D */
+
+
+
+
+    --key-action-button-glyph-color: var(--key-text-color);
+    --key-focused-action-button-left-color: var(--key-text-color);
+    --key-focused-action-button-right-color: var(--key-text-color);
+    --key-enter-action-button-glyph-color: var(--key-text-color);
+
+    --key-emoji-category-highlight-background-color: var(--alt-color-two);
+    --key-emoji-color: var(--key-text-color);
+    --key-emoji-focused-color: var(--key-text-color);
+    --key-emoji-focused-background-color: var(--key-text-color);
+    --key-spacer-background-color: #00000000;
+
+    --key-pointer-stroke-color: var(--key-text-color);
+    --key-pointer-background-color: var(--key-text-color);
+    --key-deadkey-background-color: var(--key-text-color);
+    --key-deadkeyinactive-color: var(--key-text-color);
+    --key-deadkeyactive-color: var(--key-text-color);
+
+
+}
+
+/* Keyboard Symbols (like X for backspace) */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img {
+    filter : brightness(var(--brightness))
+}
+
+/* Keyboard Symbols when on */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
+    filter : brightness(var(--brightness))
+}
+
+/* Keyboard Symbols when hovered */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN img {
+    filter : brightness(var(--brightness))
+}
+
+/* Emoji Keyboard L1 and L2 symbols */
+.DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
+    filter : brightness(var(--brightness));
+}
+
+/* Outline of keys */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+box-shadow: none;
+border-radius: 6px;
+border-top: none;
+border-bottom:none;
+}
+
+/* Glow of hovered keys */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN::before {
+    box-shadow: 0px 0px 5px 1px var(--key-text-color), inset 0px 0px 8px 1px var(--key-text-color)
+}
+
+/* Glow of clicked keys */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq::after {
+    box-shadow: 0px 0px 10px 5px var(--key-text-color), inset 0px 0px 10px 5px var(--key-text-color)
+}
+
+/* Colour of selected key */
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--alt-color-two);
+}
