@@ -7,9 +7,10 @@
     --brightness: 1;
 }
 
+/* image source: https://miro.medium.com/max/1400/1*9QISaZZ3cIJrVBMiS-2tQw.jpeg*/
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
     background-repeat: no-repeat;
-    background-image:url(https://miro.medium.com/max/1400/1*9QISaZZ3cIJrVBMiS-2tQw.jpeg);
+    background-image:url(https://i.imgur.com/19MOCUK.jpg);
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX span{
