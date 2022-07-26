@@ -12,6 +12,15 @@
     background-image:url(https://miro.medium.com/max/1400/1*9QISaZZ3cIJrVBMiS-2tQw.jpeg);
 }
 
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX span{
+    filter: brightness(var(--brightness)) drop-shadow(1px 1px 0px white)
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img{
+    filter: brightness(var(--brightness)) drop-shadow(1px 1px 0px white)
+}
+
+
 div[data-key-col="0"] {background-position-x:0%;}
 div[data-key-col="1"] {background-position-x:6%;}
 div[data-key-col="2"] {background-position-x:12%;}
@@ -113,25 +122,7 @@ div[data-key-row="4"] {background-position-y:100%;}
 
 }
 
-/* Keyboard Symbols (like X for backspace) */
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img {
-    filter : brightness(var(--brightness))
-}
 
-/* Keyboard Symbols when on */
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
-    filter : brightness(var(--brightness))
-}
-
-/* Keyboard Symbols when hovered */
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN img {
-    filter : brightness(var(--brightness))
-}
-
-/* Emoji Keyboard L1 and L2 symbols */
-.DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
-    filter : brightness(var(--brightness));
-}
 
 /* Outline of keys */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
