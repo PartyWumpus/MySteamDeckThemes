@@ -13,11 +13,11 @@
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX span{
-    filter: brightness(var(--brightness)) drop-shadow(1px 1px 0px white)
+    text-shadow: 1px 0px 1px var(--key-bg-color), -1px 0px 1px var(--key-bg-color), 0px 1px 1px var(--key-bg-color), 0px -1px 1px var(--key-bg-color);
 }
 
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img{
-    filter: brightness(var(--brightness)) drop-shadow(1px 1px 0px white)
+    filter: brightness(var(--brightness)) drop-shadow(1px 1px 0px var(--key-bg-color));
 }
 
 

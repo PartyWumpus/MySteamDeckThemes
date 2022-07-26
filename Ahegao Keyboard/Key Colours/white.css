@@ -3,11 +3,3 @@
     --key-text-color: #FFFFFF;
 
 }
-
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX span{
-    filter: brightness(var(--brightness)) drop-shadow(1px 1px 0px black)
-}
-
-.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img{
-    filter: brightness(var(--brightness)) drop-shadow(1px 1px 0px black)
-}
