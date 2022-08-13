@@ -3,33 +3,41 @@
     "version": "v5.0",
     "author": "Party Wumpus",
     "target": "Keyboard",
+    "manifest_version": 2,
     "inject": {
-        "shared.css": [
-            "SP"
-        ] 
+        "shared.css": ["SP"]
     },
     "patches": {
         "BG Colour": {
             "default": "Rainbow",
-            "Rainbow": {"BG Colours/rainbow.css": ["SP"]},
-            "Deck Colours": {"BG Colours/rgb.css": ["SP"]},
-            "Cotton Candy": {"BG Colours/cotton candy.css": ["SP"]}
+            "type": "dropdown",
+            "values": {
+                "Rainbow": {"BG Colours/rainbow.css": ["SP"]},
+                "Deck Colours": {"BG Colours/rgb.css": ["SP"]},
+                "Cotton Candy": {"BG Colours/cotton candy.css": ["SP"]}
+            }
         },
 
         "Key Colour": {
             "default": "Clear Black",
-            "Clear Black": {"Key Colours/clear black.css": ["SP"]},
-            "Black": {"Key Colours/black.css": ["SP"]},
-            "Clear White": {"Key Colours/clear white.css": ["SP"]},
-            "White": {"Key Colours/white.css": ["SP"]}
+            "type": "dropdown",
+            "values": {
+                "Clear Black": {"Key Colours/clear black.css": ["SP"]},
+                "Black": {"Key Colours/black.css": ["SP"]},
+                "Clear White": {"Key Colours/clear white.css": ["SP"]},
+                "White": {"Key Colours/white.css": ["SP"]}
+            }
         },
 
-        "Speed": {
+        "Animation Speed": {
             "default": "Medium",
-            "Fast": {"Speeds/fast.css": ["SP"]},
-            "Medium": {"Speeds/med.css": ["SP"]},
-            "Slow": {"Speeds/slow.css": ["SP"]},
-            "Very Slow": {"Speeds/very slow.css": ["SP"]}
+            "type": "slider",
+            "values": {
+                "Fast": {"Speeds/fast.css": ["SP"]},
+                "Medium": {"Speeds/med.css": ["SP"]},
+                "Slow": {"Speeds/slow.css": ["SP"]},
+                "Very Slow": {"Speeds/very slow.css": ["SP"]}
+            }
         }
     }
 }
