@@ -1,9 +1,10 @@
 {
     "name": "RGB Keyboard",
-    "version": "v5.0",
+    "version": "v6.0",
     "author": "Party Wumpus",
     "target": "Keyboard",
     "manifest_version": 2,
+  "description": "An RGB inspired keyboard theme, with animated rainbow background. Has options for different key colors and different backgrounds.",
     "inject": {
         "shared.css": ["SP"]
     },
