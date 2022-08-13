@@ -1,19 +1,22 @@
 {
     "name": "Astolfo Keyboard",
-    "version": "v4.0",
+    "version": "v5.0",
     "author": "Party Wumpus",
     "target": "Keyboard",
+    "manifest_version": 2,
+  "description": "A simple keyboard theme based off the character Astolfo.",
     "inject": {
         "shared.css": [
             "SP"
         ] 
     },
     "patches": {
-        "Key Colour": {
-            "default": "Black",
-            "Pink": {},
-            "Black": {
-                "Letter Colours/black.css": ["SP"]
+        "Black Letters": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {"Letter Colours/black.css": ["SP"]}
             }
         }
     }
