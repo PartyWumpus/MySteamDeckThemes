@@ -1,11 +1,11 @@
 :root {
-	--keyboard-colour: linear-gradient(138deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%)
+    --rgbkeyboard-keyboard-colour: linear-gradient(138deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%)
     0 0/100% 200%;
-    --key-text-color: #FFFFFF;
-    --key-bg-color: #00000070;
-    --alt-color: #C0C0C0;
-    --alt-color-two: #C0C0C0;
-    --brightness: 1;
+    --rgbkeyboard-key-text-color: #FFFFFF;
+    --rgbkeyboard-key-bg-color: #00000070;
+    --rgbkeyboard-alt-color: #C0C0C0;
+    --rgbkeyboard-alt-color-two: #C0C0C0;
+    --rgbkeyboard-brightness: 1;
 
     --keyboard-animation: gradient 20s ease infinite forwards !important;
 }
@@ -28,30 +28,30 @@
 
 /* Key Letter Colours */
 .DefaultTheme {
-    --background-color: var(--keyboard-colour);
-    animation : var(--keyboard-animation);
+    --background-color: var(--rgbkeyboard-keyboard-colour);
+    animation : var(--rgbkeyboard-keyboard-animation);
 
     /* Key Text Colours */
-    --key-color: var(--key-text-color);
-    --key-focused-color: var(--key-text-color);
-    --key-meta-color: var(--key-text-color);
-    --key-tab-color: var(--key-text-color);
-    --key-caps-color: var(--key-text-color);
-    --key-shift-color: var(--key-text-color);
-    --key-enter-color: var(--key-text-color);
-    --key-backspace-color: var(--key-text-color);
-    --key-spacebar-color: var(--key-text-color);
+    --key-color: var(--rgbkeyboard-key-text-color);
+    --key-focused-color: var(--rgbkeyboard-key-text-color);
+    --key-meta-color: var(--rgbkeyboard-key-text-color);
+    --key-tab-color: var(--rgbkeyboard-key-text-color);
+    --key-caps-color: var(--rgbkeyboard-key-text-color);
+    --key-shift-color: var(--rgbkeyboard-key-text-color);
+    --key-enter-color: var(--rgbkeyboard-key-text-color);
+    --key-backspace-color: var(--rgbkeyboard-key-text-color);
+    --key-spacebar-color: var(--rgbkeyboard-key-text-color);
 
     /* Key Background Colours */
-    --key-background-color: var(--key-bg-color);
-    --key-focused-background-color: var(--alt-color-two);
-    --key-meta-background-color: var(--key-bg-color);
-    --key-tab-background-color: var(--key-bg-color);
-    --key-caps-background-color: var(--key-bg-color);
-    --key-shift-background-color: var(--key-bg-color);
-    --key-enter-background-color: var(--key-bg-color);
-    --key-backspace-background-color: var(--key-bg-color);
-    --key-spacebar-background-color: var(--key-bg-color);
+    --key-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-focused-background-color: var(--rgbkeyboard-alt-color-two);
+    --key-meta-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-tab-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-caps-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-shift-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-enter-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-backspace-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-spacebar-background-color: var(--rgbkeyboard-key-bg-color);
 
     /* Extended Key Colours */
     --key-extendedkey-color: var(--key-text-color);
