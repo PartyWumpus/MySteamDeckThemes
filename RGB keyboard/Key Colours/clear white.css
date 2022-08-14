@@ -1,7 +1,7 @@
 :root {
-    --key-bg-color: #FFFFFF70;
-    --key-text-color: #000000;
-    --alt-color-two: #C0C0C070;
-    --brightness: 0;
+    --rgbkeyboard-key-bg-color: #FFFFFF70;
+    --rgbkeyboard-key-text-color: #000000;
+    --rgbkeyboard-alt-color-two: #C0C0C070;
+    --rgbkeyboard-brightness: 0;
 }
 
