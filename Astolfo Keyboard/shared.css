@@ -1,12 +1,13 @@
-:root { /* colours based on steamscheme.res */
+:root {
 
-	--LightestPink: #5a6a50 !important;
-	--LightPink: #4c5844 !important;
-	--Pink: #3e4637 !important;
-	--DarkPink: #808080 !important;
-	--DarkestPink: #282e22 !important;}
+	--astolfo-LightestPink: #5a6a50 !important;
+	--astolfo-LightPink: #4c5844 !important;
+	--astolfo-Pink: #3e4637 !important;
+	--astolfo-DarkPink: #808080 !important;
+	--astolfo-DarkestPink: #282e22 !important;}
 
-
+/* image source: https://wallpapers.com/images/high/astolfo-on-winter-coat-poster-4uik3gldsvx0oyx1.jpg */
+/* i do not own the rights to astolfo or this image */
 .virtualkeyboard_Keyboard_45rH7 {
     background-image: url(https://i.imgur.com/qsvN35z.jpeg);
     background-size: cover;
