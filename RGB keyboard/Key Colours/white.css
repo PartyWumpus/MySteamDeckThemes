@@ -1,5 +1,5 @@
  :root {
-    --key-bg-color: #FFFFFF;
-    --key-text-color: #000000;
-    --brightness: 0;
+    --rgbkeyboard-key-bg-color: #FFFFFF;
+    --rgbkeyboard-key-text-color: #000000;
+    --rgbkeyboard-brightness: 0;
 }
