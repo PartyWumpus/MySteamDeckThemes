@@ -23,27 +23,27 @@
 }
 
 
-div[data-key-col="0"] {background-position-x:0%;}
-div[data-key-col="1"] {background-position-x:6%;}
-div[data-key-col="2"] {background-position-x:12%;}
-div[data-key-col="3"] {background-position-x:18%;}
-div[data-key-col="4"] {background-position-x:24%;}
-div[data-key-col="5"] {background-position-x:30%;}
-div[data-key-col="6"] {background-position-x:36%;}
-div[data-key-col="7"] {background-position-x:42%;}
-div[data-key-col="8"] {background-position-x:48%;}
-div[data-key-col="9"] {background-position-x:54%;}
-div[data-key-col="10"] {background-position-x:60%;}
-div[data-key-col="11"] {background-position-x:66%;}
-div[data-key-col="12"] {background-position-x:72%;}
-div[data-key-col="13"] {background-position-x:84%;}
-div[data-key-col="14"] {background-position-x:90%;}
+div[data-key-col="0"] div {background-position-x:0%;}
+div[data-key-col="1"] div {background-position-x:6%;}
+div[data-key-col="2"] div {background-position-x:12%;}
+div[data-key-col="3"] div {background-position-x:18%;}
+div[data-key-col="4"] div {background-position-x:24%;}
+div[data-key-col="5"] div {background-position-x:30%;}
+div[data-key-col="6"] div {background-position-x:36%;}
+div[data-key-col="7"] div {background-position-x:42%;}
+div[data-key-col="8"] div {background-position-x:48%;}
+div[data-key-col="9"] div {background-position-x:54%;}
+div[data-key-col="10"] div {background-position-x:60%;}
+div[data-key-col="11"] div {background-position-x:66%;}
+div[data-key-col="12"] div {background-position-x:72%;}
+div[data-key-col="13"] div {background-position-x:84%;}
+div[data-key-col="14"] div {background-position-x:90%;}
 
-div[data-key-row="0"] {background-position-y:0%;}
-div[data-key-row="1"] {background-position-y:25%;}
-div[data-key-row="2"] {background-position-y:50%;}
-div[data-key-row="3"] {background-position-y:75%;}
-div[data-key-row="4"] {background-position-y:100%;}
+div[data-key-row="0"] div {background-position-y:0%;}
+div[data-key-row="1"] div {background-position-y:25%;}
+div[data-key-row="2"] div {background-position-y:50%;}
+div[data-key-row="3"] div {background-position-y:75%;}
+div[data-key-row="4"] div {background-position-y:100%;}
 
 .virtualkeyboard_KeyboardRow_d-_DJ {
     gap:5px;
