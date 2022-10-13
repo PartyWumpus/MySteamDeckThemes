@@ -1,5 +1,5 @@
 :root {
-    --rgbkeyboard-keyboard-colour: linear-gradient(138deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%)
+    --rgbkeyboard-keyboard-color: linear-gradient(138deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%)
     0 0/100% 200%;
     --rgbkeyboard-key-text-color: #FFFFFF;
     --rgbkeyboard-key-bg-color: #00000070;
@@ -7,7 +7,7 @@
     --rgbkeyboard-alt-color-two: #C0C0C0;
     --rgbkeyboard-brightness: 1;
 
-    --keyboard-animation: gradient 20s ease infinite forwards !important;
+    --rgbkeyboard-keyboard-animation: gradient 20s ease infinite forwards !important;
 }
 
 @keyframes gradient {
@@ -28,7 +28,7 @@
 
 /* Key Letter Colours */
 .DefaultTheme {
-    --background-color: var(--rgbkeyboard-keyboard-colour);
+    --background-color: var(--rgbkeyboard-keyboard-color);
     animation : var(--rgbkeyboard-keyboard-animation);
 
     /* Key Text Colours */
@@ -54,72 +54,66 @@
     --key-spacebar-background-color: var(--rgbkeyboard-key-bg-color);
 
     /* Extended Key Colours */
-    --key-extendedkey-color: var(--key-text-color);
-    --key-extendedkey-focused-color: var(--key-text-color);
-    --key-extendedkey-hover-color: var(--key-text-color);
-    --key-extendedkey-background-color: var(--key-bg-color);
-    --key-extendedkey-focused-background-color: var(--alt-color-two);
-    --key-extendedkey-hover-background-color: var(--key-bg-color);
+    --key-extendedkey-color: var(--rgbkeyboard-key-text-color);
+    --key-extendedkey-focused-color: var(--rgbkeyboard-key-text-color);
+    --key-extendedkey-hover-color: var(--rgbkeyboard-key-text-color);
+    --key-extendedkey-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-extendedkey-focused-background-color: var(--rgbkeyboard-alt-color-two);
+    --key-extendedkey-hover-background-color: var(--rgbkeyboard-key-bg-color);
 
     /* Shift Key Colours (as in the things above the numbers)*/
-    --key-shift-label-color: var(--alt-color);
-    --key-focused-shift-label-color: var(--alt-color);
+    --key-shift-label-color: var(--rgbkeyboard-alt-color);
+    --key-focused-shift-label-color: var(--rgbkeyboard-alt-color);
 
     /* Pressed Key Colours */
-    --key-touched-color: var(--key-text-color);
-    --key-touched-background-color: var(--alt-color-two);
+    --key-touched-color: var(--rgbkeyboard-key-text-color);
+    --key-touched-background-color: var(--rgbkeyboard-alt-color-two);
 
     /* Toggled On Key Colours (caps/shift) */
-    --key-toggleon-color: var(--key-bg-color);
-    --key-toggleon-background-color: var(--alt-color-two);
+    --key-toggleon-color: var(--rgbkeyboard-key-bg-color);
+    --key-toggleon-background-color: var(--rgbkeyboard-alt-color-two);
 
     /* Temporary Toggled On Key Colours (shift) */
-    --key-toggleoneshot-color: var(--key-text-color);
-    --key-toggleoneshot-background-color:var(--alt-color-two);
+    --key-toggleoneshot-color: var(--rgbkeyboard-key-text-color);
+    --key-toggleoneshot-background-color:var(--rgbkeyboard-alt-color-two);
 
     /* other stuff that i honestly do not remember :D */
+    --key-action-button-glyph-color: var(--rgbkeyboard-key-text-color);
+    --key-focused-action-button-left-color: var(--rgbkeyboard-key-text-color);
+    --key-focused-action-button-right-color: var(--rgbkeyboard-key-text-color);
+    --key-enter-action-button-glyph-color: var(--rgbkeyboard-key-text-color);
 
+    --key-emoji-category-highlight-background-color: var(--rgbkeyboard-alt-color-two);
+    --key-emoji-color: var(--rgbkeyboard-key-text-color);
+    --key-emoji-focused-color: var(--rgbkeyboard-key-text-color);
+    --key-emoji-focused-background-color: var(--rgbkeyboard-alt-color-two);
+    --key-spacer-background-color: #00000000;
 
-
-
-    --key-action-button-glyph-color: var(--key-text-color);
-    --key-focused-action-button-left-color: var(--key-text-color);
-    --key-focused-action-button-right-color: var(--key-text-color);
-    --key-enter-action-button-glyph-color: var(--key-text-color);
-
-    --key-emoji-category-highlight-background-color: var(--alt-color-two);
-    --key-emoji-color: var(--key-text-color);
-    --key-emoji-focused-color: var(--key-text-color);
-    --key-emoji-focused-background-color: var(--key-text-color);
-    --key-spacer-background-color: #00000000
-
-    --key-pointer-stroke-color: var(--key-text-color);
-    --key-pointer-background-color: var(--key-text-color);
-    --key-deadkey-background-color: var(--key-text-color);
-    --key-deadkeyinactive-color: var(--key-text-color);
-    --key-deadkeyactive-color: var(--key-text-color);
-
-
+    --key-pointer-stroke-color: var(--rgbkeyboard-key-text-color);
+    --key-pointer-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-deadkey-background-color: var(--rgbkeyboard-key-bg-color);
+    --key-deadkeyinactive-color: var(--rgbkeyboard-alt-color-two);
+    --key-deadkeyactive-color: var(--rgbkeyboard-key-text-color);
 }
 
 /* Keyboard Symbols (like X for backspace) */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX img {
-    filter : brightness(var(--brightness))
+    filter : brightness(var(--rgbkeyboard-brightness));
 }
 
 /* Keyboard Symbols when on */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_ToggleOn_3Qrs- img {
-    filter : brightness(var(--brightness))
+    filter : brightness(var(--rgbkeyboard-brightness));
 }
 
 /* Keyboard Symbols when hovered */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN img {
-    filter : brightness(var(--brightness))
+    filter : brightness(var(--rgbkeyboard-brightness));
 }
 
 /* Emoji Keyboard L1 and L2 symbols */
 .DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj img {
-    filter : brightness(var(--brightness));
+    filter : brightness(var(--rgbkeyboard-brightness));
 }
 
 /* Outline of keys */
@@ -132,15 +126,15 @@ border-bottom:none;
 
 /* Glow of hovered keys */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN::before {
-    box-shadow: 0px 0px 5px 1px var(--key-text-color), inset 0px 0px 8px 1px var(--key-text-color)
+    box-shadow: 0px 0px 5px 1px var(--rgbkeyboard-key-text-color), inset 0px 0px 8px 1px var(--rgbkeyboard-key-text-color);
 }
 
 /* Glow of clicked keys */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq::after {
-    box-shadow: 0px 0px 10px 5px var(--key-text-color), inset 0px 0px 10px 5px var(--key-text-color)
+    box-shadow: 0px 0px 10px 5px var(--rgbkeyboard-key-text-color), inset 0px 0px 10px 5px var(--rgbkeyboard-key-text-color);
 }
 
 /* Colour of selected key */
 .DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
-    background-color: var(--alt-color-two);
+    background-color: var(--rgbkeyboard-alt-color-two);
 }
